@@ -3,6 +3,25 @@ os: linux
 files:
   - source: /index.html 
     destination: /var/www/html/
+
+     - source: /booking.html
+    destination: /var/www/html/
+
+     - source: /login.html 
+    destination: /var/www/html/
+
+    - source: /movies.html 
+    destination: /var/www/html/
+
+    - source: /payment.html 
+    destination: /var/www/html/
+
+    - source: /register.html 
+    destination: /var/www/html/
+
+    - source: /seats.html 
+    destination: /var/www/html/
+
 hooks:
   BeforeInstall:
     - location: script.sh
